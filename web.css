@@ -1,0 +1,119 @@
+*{margin:0%;
+padding:0%;}
+
+#a
+{
+    height:600px;
+    width:1368px;
+	background-color:black;
+	display:grid;
+	grid-template-rows:15% 10% 70% 10%;
+}
+
+#b
+{
+  background-color:black;
+}
+h1::first-letter
+{
+	    
+	background-color:blue;
+}
+h1{ color:white;
+	font-size:70px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	letter-spacing:10px;
+	font-variant:small-caps;
+	text-shadow:0 0 14px white; }
+	
+h1:hover{color:gray;
+           letter-spacing:15px;
+		   text-shadow:none;
+		   }
+		   
+#c{
+	background-color:gray;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}	
+#c>a{
+     color:black;
+	 text-decoration:none;
+	 font-style:italic;
+	 font-size:20px;
+     }
+a::first-letter{color:red;
+                font-size:25px;
+				font-weight:bold;}	 
+#c>a:hover{
+	      background-color:black;
+		  height:50%;
+		  width:95px;
+		  text-align:center;
+		  border:2px solid black;
+		  border-style:solid;
+		  color:white;
+		  box-shadow:0 0 25px gray;		  
+          }	 
+#h{background-color:black;}
+#d{
+	display:grid;
+    grid-template-columns:25% 50% 25%;	
+  }
+ #f{background-color:white;
+     text-align:center;}
+ iframe{width:100%;height:100%;}
+ 
+ 
+#e,#g{ height:100%;
+     width:100%;
+     background-image:url(thiru5.jpg);
+     background-size:100% 100%;
+     animation-name:test;
+     animation-duration:15s;
+     animation-delay:4s;
+    
+     animation-iteration-count:infinite;}
+ 
+ 
+@keyframes test
+{ 25%
+	{
+      background-image:url(thiru4.jpg);
+      background-size:100% 100%;
+      }
+   50%{
+      background-image:url(thiru1.jpg);
+      background-size:100% 100%;
+      }
+   75%{
+      background-image:url(thiru3.jpg);
+      background-size:100% 100%;
+      }
+    100%{
+      background-image:url(thiru2.jpg);
+      background-size:100% 100%;
+      }
+} 
+#h
+    {
+	  display:grid;
+      grid-template-columns:70% 30%;
+    }
+#h{color:gray;
+   display:felex;
+   flex-direction:column;
+   align-items:center;
+   font-size:10px;
+   padding-left:50px;
+   }
+ #j{
+	 display:flex;
+	 flex-direction:row;
+	 justify-content:space-around;
+ }
